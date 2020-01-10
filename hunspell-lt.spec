@@ -1,7 +1,7 @@
 Name: hunspell-lt
 Summary: Lithuanian hunspell dictionaries
 Version: 1.2.1
-Release: 10%{?dist}
+Release: 9%{?dist}
 Source: ftp://ftp.akl.lt/ispell-lt/lt_LT-%{version}.zip
 Group: Applications/Text
 URL: ftp://ftp.akl.lt/ispell-lt/
@@ -39,9 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.1-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2.1-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
